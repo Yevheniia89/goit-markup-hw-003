@@ -37,6 +37,7 @@ gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
    margin: 0 auto;
+   padding: 0 15px;
 }
 
 .header-logo {
@@ -207,7 +208,10 @@ display: flex;
 .rezume-item{
   width: calc((100% - 48px) / 3);
 }
-.rezumu-container{padding: 32px 16px;
+.rezumu-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+
 }
 
 .rezume-title{color:#2E2F42;background-color: #F4F4FD;
@@ -225,12 +229,16 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
-margin-bottom: 8px;}
+margin-bottom: 8px;
+text-align: center;
+}
 
 .rezume-text{color:#434455;
 font-size: 16px;
 line-height: 24px; /* 150% */
-letter-spacing: 0.32px;}
+letter-spacing: 0.32px;
+text-align: center; 
+}
 
 .footer{color:#f4f4fd; 
 background-color:#2E2F42;
