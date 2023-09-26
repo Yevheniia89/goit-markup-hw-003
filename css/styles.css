@@ -19,7 +19,7 @@ width: 1158px;
 padding-left:15px ;
 padding-right:15px ;
 margin: 0 auto;
-outline: 2px solid red;}
+}
 
 .header{padding: 0 15px 0 15px;
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -45,14 +45,16 @@ font-family: "Raleway",sans-serif;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-text-transform: uppercase;}
+text-transform: uppercase;
+margin-right: 76px;}
 
 .span-logo {
-color:#2E2F42;margin-right: 76px;
+color:#2E2F42;
 }
 
 .header-container{display: flex;
-    align-items: center;
+    align-items: center; padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 .header-menu-link {
@@ -86,7 +88,7 @@ letter-spacing: 0.02em;
 .hero-section{
 background-color: #2E2F42;
 padding-top: 188px; 
- padding-bottom: 188px;)
+ padding-bottom: 188px;
 }
 
 .hero-title{color: #FFF;
@@ -191,11 +193,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
  text-align: center;}
 
-.rezume-section:{background-color:#F4F4FD;
+.rezume-section
+{background-color:#F4F4FD;
     padding-top: 120px;
-     padding-bottom: 120px;
-    
-}
+     padding-bottom: 120px;}
 .rezume-list{display: flex;
  flex-wrap: wrap;
   column-gap: 24px;
@@ -205,7 +206,9 @@ letter-spacing: 0.02em;
 .rezume-item{
   width: calc((100% - 48px) / 3);
 }
-.rezumu-container{padding: 32px 16px;
+.rezumu-container{padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;margin-bottom: 8px;
   border: 1px solid #e7e9fc;  
  border-top: none;
  
