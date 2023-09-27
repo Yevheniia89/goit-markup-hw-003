@@ -34,10 +34,6 @@ gap: 40px;
 
 .header-navigation{display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-   margin: 0 auto;
-   padding: 0 15px;
 }
 
 .header-logo {
@@ -50,12 +46,11 @@ text-transform: uppercase;
 margin-right: 76px;}
 
 .span-logo {
-color:#2E2F42;margin-right: 76px;
+color:#2E2F42;
 }
 
 .header-container{display: flex;
-    align-items: center; padding-top: 24px;
-    padding-bottom: 24px;
+    align-items: center;
     
 }
 .header-menu-link {
@@ -64,20 +59,22 @@ color:#2E2F42 ;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.02em;}
+letter-spacing: 0.02em;
+display: block;
+padding: 24px 0;}
 
 .header-menu-link:hover,
 .header-menu-link:focus
 {color:#404bbf;}
 
-.address-item{font-style: normal;}
+.address-item{font-style: normal;
+margin-left: auto;}
 .address-list{display: flex; align-items: center;
 gap: 40px;}
 
 .address-mailtel-link {
 font-size: 16px;
 color:#434455;
-font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
@@ -123,8 +120,8 @@ line-height: 1.5;
 
  .visually-hidden{
     position: absolute;
-    width: 1;
-    height: 1;
+    width: 1px;
+    height: 1px;
     margin: -1;
     padding: 0;
     overflow: hidden;
@@ -170,10 +167,7 @@ text-align: center;
 .team-list{display: flex;
     gap: 24px;
 }
-.team-container{padding-top: 32px;
-    padding-bottom: 32px;
 
-}
 .team-man{color:#2E2F42;
 /* Header 3 */
 font-size: 20px;
@@ -186,8 +180,12 @@ margin-bottom: 8px;
 .team-title{background-color: #F4F4FD;}
 .team-link{background-color: #FFFFFF;
  width: calc((100% - 72px) / 4);
- border-radius: 0px 0px 4px 4px;margin-right: 0 ;
-}
+ border-radius: 0px 0px 4px 4px;margin-right: 0 ;}
+
+.team-tek{
+ padding: 32px 0;
+padding-top: 32px;
+padding-bottom: 32px;}
 
 .team-text{color:#434455;
 line-height: 1.5;
@@ -211,10 +209,9 @@ display: flex;
 .rezumu-container{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;}
 
-}
-
-.rezume-title{color:#2E2F42;background-color: #F4F4FD;
+.rezume-title{color:#2E2F42;
 text-align: center;
 /* Header 2 */
 font-size: 36px;
@@ -230,14 +227,14 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
-text-align: center;
+align-items: flex-start;
 }
 
 .rezume-text{color:#434455;
 font-size: 16px;
 line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
-text-align: center; 
+letter-spacing: 0.32px; 
+align-items: flex-start;
 }
 
 .footer{color:#f4f4fd; 
