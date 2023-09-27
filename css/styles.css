@@ -175,7 +175,7 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
- text-align: center;}
+text-align: center;}
 
 .team-title{background-color: #F4F4FD;}
 .team-link{background-color: #FFFFFF;
@@ -183,9 +183,7 @@ margin-bottom: 8px;
  border-radius: 0px 0px 4px 4px;margin-right: 0 ;}
 
 .team-tek{
- padding: 32px 0;
-padding-top: 32px;
-padding-bottom: 32px;}
+ padding: 32px 0;}
 
 .team-text{color:#434455;
 line-height: 1.5;
